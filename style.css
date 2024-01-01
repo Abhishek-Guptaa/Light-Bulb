@@ -1,0 +1,33 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing:border-box;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bulb{
+
+    width: 400px; 
+    height: 400px;
+    /* background-color: yellow; */
+    border: 2px solid black;
+    border-radius:50%;
+
+  
+}
+button{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+h1{
+    margin: 20px;
+}
